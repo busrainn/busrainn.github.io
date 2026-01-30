@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Büşra İnan | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Büşra İnan</h1>
+        <p>Computer Engineering Student | AI & ML | Full-Stack Developer</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a computer engineering student focused on artificial intelligence,
+            machine learning, and full-stack web development. I build end-to-end systems
+            that combine data, models, and user-friendly interfaces.
+        </p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Liver Fibrosis Detection System</h3>
+            <p>Machine learning models to predict F0–F4 liver fibrosis stages. Built with Python, Scikit-learn, Flask API, and React frontend.</p>
+        </div>
+
+        <div class="project">
+            <h3>Fleet Management System</h3>
+            <p>Full-stack fleet tracking system with JWT authentication, role-based access, and REST API architecture.</p>
+        </div>
+
+        <div class="project">
+            <h3>AI Calorie Estimation App</h3>
+            <p>Computer vision system that estimates calories from food images using deep learning techniques.</p>
+        </div>
+
+        <div class="project">
+            <h3>VR AI Avatar System</h3>
+            <p>Interactive VR avatar with AI chatbot, speech-to-text and text-to-speech integration in Unity.</p>
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: busra.inann37@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/busra-inan-b977ab353/" target="_blank">My Profile</a></p>
+        <p>GitHub: <a href="https://github.com/busrainn" target="_blank">github.com/busrainn</a></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Büşra İnan</p>
+    </footer>
+
+</body>
+</html>
