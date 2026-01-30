@@ -1,142 +1,127 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Büşra İnan | Portfolio</title>
+    <title>Büşra İnan | AI & Full-Stack Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- HERO -->
 <header class="hero">
     <h1>Büşra İnan</h1>
-    <p>
-        Computer Engineering Student • AI & Machine Learning • Full-Stack Developer<br>
-        Building intelligent, scalable and user-focused systems
+    <p class="tagline">
+        Computer Engineering Student<br>
+        AI & Machine Learning • Full-Stack Developer
     </p>
 
-    <div class="contact-top">
-        <span>📧 busra.inann37@gmail.com</span>
-        <span>📍 İstanbul</span>
-        <a href="https://www.linkedin.com/in/busra-inan-b977ab353/" target="_blank">LinkedIn</a>
+    <div class="hero-links">
+        <a href="mailto:busra.inann37@gmail.com">Email</a>
         <a href="https://github.com/busrainn" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/busra-inan-b977ab353/" target="_blank">LinkedIn</a>
     </div>
 </header>
 
-<section class="card">
-    <h2>👩‍💻 Profile</h2>
+<!-- ABOUT -->
+<section class="section">
+    <h2>About Me</h2>
     <p>
-        I am a Computer Engineering student focused on Artificial Intelligence, Machine Learning,
-        and full-stack web development. I have hands-on experience in developing end-to-end
-        AI-powered systems, including data analysis, machine learning model development,
-        and web-based deployment.
+        Hi, I’m Büşra 👋  
+        I’m a Computer Engineering student with a strong interest in Artificial Intelligence,
+        Machine Learning, and full-stack system development.
         <br><br>
-        During my internship, I worked on liver fibrosis stage detection (F0–F4) using machine
-        learning models and integrated them into a React–Flask web platform.
-        I also gained leadership experience by mentoring students in Unity and VR-based research projects.
+        I enjoy working on real-world problems where data, models, and software architecture
+        come together. From building machine learning models for medical decision support
+        to developing scalable, role-based web systems, I focus on creating solutions that
+        are both technically solid and user-oriented.
     </p>
 </section>
 
-<section class="card">
-    <h2>🎓 Education</h2>
-    <p>
-        <b>İstanbul Sağlık ve Teknoloji Üniversitesi</b><br>
-        Computer Engineering (B.Sc.) | 2023 – 2027 (Expected)<br>
-        GPA: 3.18 / 4.00
-    </p>
-
-    <p>
-        <b>Doktor Vasıf Topçu Science High School</b><br>
-        2019 – 2023
-    </p>
-</section>
-
-<section class="card">
-    <h2>🛠 Technical Skills</h2>
-    <div class="skill-tags">
-        <span>Python</span>
-        <span>Machine Learning</span>
-        <span>Random Forest</span>
-        <span>XGBoost</span>
-        <span>Logistic Regression</span>
-        <span>CNN</span>
-        <span>LLM / VLM</span>
-        <span>React</span>
-        <span>Node.js</span>
-        <span>Express</span>
-        <span>Flask</span>
-        <span>REST API</span>
-        <span>MySQL</span>
-        <span>JWT</span>
-        <span>Unity</span>
-        <span>VR</span>
-        <span>Git & GitHub</span>
-    </div>
-</section>
-
-<section class="card">
-    <h2>💼 Experience</h2>
-
-    <h3>AI / Data Analysis Intern – Liver Fibrosis Project (2025)</h3>
-    <ul>
-        <li>Developed ML classification models for F0–F4 liver fibrosis stage detection</li>
-        <li>Performed data preprocessing, train-test split and model evaluation</li>
-        <li>Compared Random Forest, XGBoost and Logistic Regression models</li>
-        <li>Contributed to LLM and VLM integration processes</li>
-        <li>Built an end-to-end system using React and Flask API</li>
-    </ul>
-
-    <h3>Unity / VR Research Group Mentor (2025 – Present)</h3>
-    <ul>
-        <li>Mentored students in Unity and VR development processes</li>
-        <li>Designed interactive VR UI and character animation systems</li>
-        <li>Integrated STT/TTS based voice interaction</li>
-        <li>Enhanced UX with AI-powered chatbot integration</li>
-    </ul>
-</section>
-
-<section class="card">
-    <h2>🚀 Projects</h2>
+<!-- PROJECTS -->
+<section class="section">
+    <h2>Featured Projects</h2>
 
     <div class="project">
-        <h3>FleetTrack – Vehicle Fleet Management System</h3>
-        <p>
-            Role-based full-stack fleet management system for vehicle tracking,
-            maintenance planning and driver performance monitoring.
+        <h3>FleetTrack — Vehicle Fleet Management System</h3>
+        <p class="problem">
+            <b>Problem:</b> Managing vehicle fleets requires handling multiple user roles,
+            secure authentication, and scalable data structures.
         </p>
-        <p class="tech">React • Node.js • Express • MySQL • JWT • REST API</p>
+        <p>
+            <b>Solution:</b> I designed and developed a role-based full-stack fleet management
+            system with secure JWT authentication.
+        </p>
+        <ul>
+            <li>JWT-based authentication & authorization</li>
+            <li>RESTful API architecture</li>
+            <li>Admin, driver & technician dashboards</li>
+            <li>Relational database design</li>
+        </ul>
+        <p class="tech">React • Node.js • Express • MySQL • JWT</p>
         <a href="https://github.com/busrainn/fleet-management-system" target="_blank">
-            🔗 View on GitHub
+            View on GitHub →
         </a>
     </div>
 
     <div class="project">
+        <h3>Liver Fibrosis Stage Detection System</h3>
+        <p class="problem">
+            <b>Problem:</b> Accurate detection of liver fibrosis stages (F0–F4) is critical
+            for clinical decision-making.
+        </p>
+        <p>
+            <b>Solution:</b> I developed machine learning models and integrated them into
+            a web-based decision support system.
+        </p>
+        <ul>
+            <li>Data preprocessing & feature analysis</li>
+            <li>Random Forest, XGBoost & Logistic Regression</li>
+            <li>Model evaluation and comparison</li>
+            <li>Flask API deployment</li>
+        </ul>
+        <p class="tech">Python • Scikit-learn • Flask • React</p>
+    </div>
+
+    <div class="project">
         <h3>AI-Based Calorie Estimation App</h3>
-        <p>
-            Deep learning-based food recognition and calorie estimation system
-            with daily intake and macro-nutrient tracking.
+        <p class="problem">
+            <b>Problem:</b> Manual calorie tracking is time-consuming and often inaccurate.
         </p>
+        <p>
+            <b>Solution:</b> I built a deep learning-based system that recognizes food
+            from images and estimates calorie values.
+        </p>
+        <ul>
+            <li>CNN-based food recognition</li>
+            <li>Image preprocessing & data augmentation</li>
+            <li>Daily calorie & macro tracking</li>
+        </ul>
         <p class="tech">Python • CNN • Image Processing • MySQL</p>
-    </div>
-
-    <div class="project">
-        <h3>Liver Fibrosis Detection System</h3>
-        <p>
-            Machine learning models predicting liver fibrosis stages (F0–F4)
-            with web-based deployment.
-        </p>
-        <p class="tech">Python • Random Forest • XGBoost • Flask • React</p>
-    </div>
-
-    <div class="project">
-        <h3>VR AI Avatar System</h3>
-        <p>
-            Interactive AI-powered VR avatar with voice interaction
-            and chatbot integration.
-        </p>
-        <p class="tech">Unity • VR • STT / TTS • AI Chatbot</p>
     </div>
 </section>
 
+<!-- SKILLS -->
+<section class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>Python</span>
+        <span>Machine Learning</span>
+        <span>Random Forest</span>
+        <span>XGBoost</span>
+        <span>CNN</span>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>Flask</span>
+        <span>REST API</span>
+        <span>MySQL</span>
+        <span>JWT</span>
+        <span>Git & GitHub</span>
+        <span>Unity</span>
+        <span>VR</span>
+    </div>
+</section>
+
+<!-- FOOTER -->
 <footer>
     <p>© 2026 Büşra İnan</p>
 </footer>
