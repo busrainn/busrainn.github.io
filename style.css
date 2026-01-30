@@ -1,73 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    background: linear-gradient(135deg, #1e1e2f, #2b2b45);
-    color: #f5f5f5;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: linear-gradient(135deg, #1c1c2e, #2a2a44);
+    color: #f2f2f2;
     line-height: 1.7;
 }
 
-/* ---------- HERO ---------- */
+/* HERO */
 .hero {
     text-align: center;
-    padding: 70px 20px 40px;
+    padding: 90px 20px 70px;
 }
 
 .hero h1 {
-    font-size: 44px;
+    font-size: 48px;
     margin: 0;
     background: linear-gradient(90deg, #8ab4ff, #c77dff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.hero p {
+.tagline {
     font-size: 18px;
     opacity: 0.9;
+    margin-top: 15px;
 }
 
-.contact-top {
-    margin-top: 18px;
+.hero-links {
+    margin-top: 25px;
 }
 
-.contact-top span,
-.contact-top a {
-    margin: 0 10px;
-    font-size: 14px;
-    color: #cfcfff;
+.hero-links a {
+    margin: 0 12px;
+    color: #8ab4ff;
     text-decoration: none;
+    font-size: 14px;
 }
 
-/* ---------- CARD (GLASS EFFECT) ---------- */
-.card {
-    background: rgba(47,47,79,0.75);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.08);
-    margin: 30px auto;
-    padding: 28px;
-    border-radius: 14px;
-    width: 85%;
+/* SECTIONS */
+.section {
     max-width: 950px;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+    margin: 0 auto;
+    padding: 60px 25px;
+}
+
+.section h2 {
+    color: #8ab4ff;
+    margin-bottom: 25px;
+}
+
+/* PROJECTS */
+.project {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 25px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(10px);
     transition: 0.3s ease;
 }
 
-.card:hover {
-    transform: translateY(-4px);
+.project:hover {
+    transform: translateY(-6px);
+    background: rgba(255,255,255,0.08);
 }
 
-h2 {
+.project h3 {
     margin-top: 0;
-    color: #8ab4ff;
 }
 
-/* ---------- SKILLS ---------- */
-.skill-tags {
+.project ul {
+    padding-left: 20px;
+}
+
+.problem {
+    color: #d0d8ff;
+}
+
+.tech {
+    font-size: 13px;
+    color: #9fb7ff;
+    margin-top: 10px;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #8ab4ff;
+    text-decoration: none;
+}
+
+/* SKILLS */
+.skills {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.skill-tags span {
+.skills span {
     background: rgba(138,180,255,0.15);
     border: 1px solid rgba(138,180,255,0.3);
     padding: 6px 14px;
@@ -76,38 +110,10 @@ h2 {
     color: #cfe0ff;
 }
 
-/* ---------- PROJECTS ---------- */
-.project {
-    margin-top: 18px;
-    padding: 16px;
-    background: #3a3a5f;
-    border-radius: 10px;
-    transition: 0.3s ease;
-}
-
-.project:hover {
-    background: #44446a;
-}
-
-.project h3 {
-    margin-top: 0;
-}
-
-.project .tech {
-    font-size: 13px;
-    color: #9fb7ff;
-    margin-bottom: 6px;
-}
-
-.project a {
-    color: #8ab4ff;
-    text-decoration: none;
-}
-
-/* ---------- FOOTER ---------- */
+/* FOOTER */
 footer {
     text-align: center;
-    padding: 35px;
+    padding: 40px;
     font-size: 14px;
     opacity: 0.7;
 }
