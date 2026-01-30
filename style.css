@@ -4,20 +4,20 @@
 
 body {
     margin: 0;
-    font-family: "Segoe UI", Tahoma, sans-serif;
-    background: linear-gradient(135deg, #1c1c2e, #2a2a44);
-    color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2b2b45);
+    color: #f5f5f5;
     line-height: 1.7;
 }
 
-/* HERO */
+/* ---------- HERO ---------- */
 .hero {
     text-align: center;
-    padding: 90px 20px 70px;
+    padding: 80px 20px 60px;
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 46px;
     margin: 0;
     background: linear-gradient(90deg, #8ab4ff, #c77dff);
     -webkit-background-clip: text;
@@ -31,17 +31,22 @@ body {
 }
 
 .hero-links {
-    margin-top: 25px;
+    margin-top: 22px;
 }
 
 .hero-links a {
     margin: 0 12px;
-    color: #8ab4ff;
-    text-decoration: none;
     font-size: 14px;
+    color: #cfcfff;
+    text-decoration: none;
+    transition: 0.3s ease;
 }
 
-/* SECTIONS */
+.hero-links a:hover {
+    color: #8ab4ff;
+}
+
+/* ---------- SECTIONS ---------- */
 .section {
     max-width: 950px;
     margin: 0 auto;
@@ -49,24 +54,38 @@ body {
 }
 
 .section h2 {
-    color: #8ab4ff;
+    margin-top: 0;
     margin-bottom: 25px;
+    color: #8ab4ff;
 }
 
-/* PROJECTS */
-.project {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 14px;
-    padding: 25px;
-    margin-bottom: 30px;
+/* ---------- GLASS CARD (ABOUT + SECTIONS) ---------- */
+.section {
+    background: rgba(47,47,79,0.75);
     backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+    transition: 0.3s ease;
+}
+
+.section:hover {
+    transform: translateY(-4px);
+}
+
+/* ---------- PROJECTS ---------- */
+.project {
+    margin-top: 25px;
+    padding: 22px;
+    background: #3a3a5f;
+    border-radius: 14px;
     transition: 0.3s ease;
 }
 
 .project:hover {
-    transform: translateY(-6px);
-    background: rgba(255,255,255,0.08);
+    background: #44446a;
+    transform: translateY(-3px);
 }
 
 .project h3 {
@@ -94,7 +113,7 @@ body {
     text-decoration: none;
 }
 
-/* SKILLS */
+/* ---------- SKILLS ---------- */
 .skills {
     display: flex;
     flex-wrap: wrap;
@@ -110,7 +129,7 @@ body {
     color: #cfe0ff;
 }
 
-/* FOOTER */
+/* ---------- FOOTER ---------- */
 footer {
     text-align: center;
     padding: 40px;
